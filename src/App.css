@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: url("./assets/background-min.png") no-repeat center center;
+}
+
+.content{
+    max-width: 1248px;
+    padding: 96px 16px;
+    margin: 0 auto;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 176px;
+}
+
+@media (max-width:1100px){
+    .content {
+        column-gap: 80px;
+    }
+}
+
+
+@media (max-width:768px){
+    .content {
+      grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:500px){
+    .content {
+      padding: 48px 16px;
+    }
+}

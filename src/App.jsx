@@ -4,12 +4,14 @@ import Header from "./components/Header/Header"
 
 const App = () => {
   return (
-    <>
-  <Header/>
+    <div className="container">
+      <Header />
+      <section className="content">
+        <CreateNewTask />
+      </section>
+    </div>
 
-  <CreateNewTask/>
-  </>
-  )
-}
+  );
+};
 
 export default App
