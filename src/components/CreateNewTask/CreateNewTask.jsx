@@ -3,7 +3,7 @@ import styles from './CreateNewTask.module.css'
 
 const CreateNewTask = () => {
   return (
-    <Title iconName={"list"}/>
+    <Title iconName={"pencil"} text={"Criar nova tarefa"}/>
   )
 }
 
