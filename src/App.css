@@ -33,3 +33,11 @@
       padding: 48px 16px;
     }
 }
+
+.divider{
+    width: 1px;
+    min-height: calc(100vh - 272px);
+    height: calc(100% - 192px);
+    background: #24293f;
+    position: fixed;
+}
